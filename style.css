@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Main {
+
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#ffc1cc 0%, #89cff0 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#about {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#charecterreviews {
+    width: 100%;
+    background-color: bisque;
+}
+
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+.name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Redressed', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+
+
+
+
+
+p {
+    max-width: 500px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+
+
+.menu {
+    position: fixed;
+    background: #D44EF4;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px
+}
+
+
+
+.links:hover {
+    background-color: darkcyan;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+#Bella {
+    height: 500px;
+    width: 500px;
+}
+
+#JK {
+    height: 500px;
+    width: 500px;
+}
+
+#Contacts {
+    background: violet;
+}
+
+#Contacts iframe {
+    width: 100%;
+}
